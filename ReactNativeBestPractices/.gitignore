@@ -1,0 +1,50 @@
+# Expo
+.expo/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.cproject
+.buildpath
+.settings
+*.sublime-workspace
+*.sublime-project
+.vs/
+.vscode/ # Exclude .vscode if you want to share editor settings
+
+# Build artifacts (React Native)
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+
+# Metro cache
+.metro-cache/
+
+# Misc
+.DS_Store
+coverage/
+*.log
+# Firebase
+google-services.json # If downloaded manually
+# Sentry
+sentry.properties
+
+# macOS
+._*
